@@ -6,39 +6,263 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="node_modules/foundation-sites/dist/css/foundation-prototype.min.css">
-    <title>Boat Rental | Coming soon!</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Boat Rental | Home</title>
 </head>
 <body>
     <header class="header bg-transparent">
-        <nav class="bg-transparent">
+        <nav class=" bg-transparent">            
+            <div class="title-bar align-justify bg-transparent hide-for-medium" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                <img src="img/navbar_logo.png" alt="logo" class="float-left">
+                <button class="menu-icon text-red margin-1" type="button" data-toggle="responsive-menu"></button>
+            </div>
             <div class="top-bar bg-transparent" id="responsive-menu">
-                <div class="top-bar-left">
+                <div class="top-bar-left show-for-medium">
                     <img src="img/navbar_logo.png" alt="logo" class="float-left">
                     <div class="display-inline-block text-red text-shadow font-bold font-logo margin-left-1">
                         BoatRental
                     </div>
                 </div>
+                <div class="top-bar-right">                    
+                    <ul class="dropdown menu align-right bg-transparent nav-menu text-shadow" data-dropdown-menu>
+                        <li class="nav-item hover-darken">
+                            <a href="index.html" class="text-white font-bold">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item hover-darken">                        
+                            <a href="rent.html" class="text-white font-bold">
+                                Rent
+                            </a>
+                        </li>
+                        <li class="nav-item hover-darken">
+                            <a href="services.html" class="text-white font-bold">
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav-item hover-darken">
+                            <a href="team.html" class="text-white font-bold">
+                                Team
+                            </a>
+                        </li>
+                        <li class="nav-item hover-darken">
+                            <a href="contact.html" class="text-white font-bold">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item hover-darken">
+                            <a href="user.html" class="text-white font-bold">
+                                <span class="fa fa-user-circle-o"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="error-s1 grid-x grid-padding-x align-center align-middle">
-            <div class="cell small-10 medium-6 text-center text-shadow">
-                <h2 class="h1 text-white font-bold">Coming soon.</h2>
-                <p class="text-xl pt-5 text-white">
-                    Hi, we are not ready yet, however we are staring soon. <br> 
-                    Please visit us again in a while.
+        <section class="index-s1 bg-gray grid-x grid-padding-x align-bottom align-center minh-75vh small-minh-100vh">
+            <div class="cell small-10 large-8 text-center text-shadow margin-2">
+                <h2 class="h4 text-white font-bold">
+                    Boat Rentals &amp; Water Experiences
+                </h2>
+                <p class="text-white">
+                    Save money, meet awesome people, and consume less
+                </p>
+                <a href="rent.html" class="button alert">
+                    Book now
+                </a>
+            </div>
+        </section>
+        <section class="index-s2 bg-dark minh-25vh border-t border-b  border-dark grid-x align-middle align-center padding-1">
+            <div class="small-8 medium-4">
+                <ul class="no-bullet text-white text-center medium-text-right border-r border-white padding-1 margin-0 small-border-none">
+                    <li class="font-bold">Rental Office</li>
+                    <li class="font-thin">IV Maksimirsko naselje 28</li>
+                    <li class="font-thin">10000 Zagreb</li>
+                </ul>
+            </div>
+            <div class="small-8 medium-4 text-center padding-1 margin-0">
+                <ul class="no-bullet text-white">
+                    <li class="font-bold">Opening Hours</li>
+                    <li class="font-thin">Sun - Fri</li>
+                    <li class="font-thin">8:00 - 17:00</li>
+                </ul>
+            </div>
+            <div class="small-8 medium-4 text-white text-center medium-text-left border-l border-white padding-1 margin-0 small-border-none">
+                <ul class="no-bullet text-white">
+                    <li class="font-bold">Contact</li>
+                    <li class="font-thin">+385 1 2444 100</li>
+                    <li class="font-thin">contact&#64;boatrental.mail</li>
+                </ul>
+            </div>
+        </section>
+        <section class="index-s3 minh-50vh grid-x padding-3">
+            <div class="small-12 text-center border-b border-gray">
+                <h3 class="font-thin">Our boats</h3>
+                <p class="font-thin text-gray">
+                    Find one for you!
+                </p>
+            </div>
+            <div class="small-12 medium-4 align-bottom align-center padding-1">
+                <a class="callout grid-x minh-25vh bg-dark text-white category-s1 shadow text-shadow hover-grayscale"
+                    href="rent.html#boats">
+                    <header class="text-left w-full">
+                        Boat
+                    </header>
+                    <footer class="text-right align-self-bottom align-self-right w-full">
+                        <span class="font-thin">from</span> $30/day
+                    </footer>
+                </a>
+            </div>
+            <div class="small-12 medium-4 align-bottom align-center padding-1">
+                <a class="callout grid-x minh-25vh bg-dark text-white category-s2 shadow text-shadow hover-grayscale"
+                    href="rent.html#sailboats">
+                    <header class="text-left w-full">
+                        <span class="font-thin">Sail</span>boat
+                    </header>
+                    <footer class="text-right align-self-bottom align-self-right w-full">
+                        <span class="font-thin">from</span> $89/day
+                    </footer>
+                </a>
+            </div>
+            <div class="small-12 medium-4 align-bottom align-center padding-1">
+                <a class="callout grid-x minh-25vh bg-dark text-white category-s3 shadow text-shadow hover-grayscale"
+                    href="rent.html#motorboats">
+                    <header class="text-left w-full">
+                        <span class="font-thin">Motor</span>boat
+                    </header>
+                    <footer class="text-right align-self-bottom align-self-right w-full">
+                        <span class="font-thin">from</span> $160/day
+                    </footer>
+                </a>
+            </div>
+            <div class="small-12 medium-4 align-bottom align-center padding-1">
+                <a class="callout grid-x minh-25vh bg-dark text-white category-s4 shadow text-shadow hover-grayscale"
+                    href="rent.html#small-yachts">
+                    <header class="text-left w-full">
+                        <span class="font-thin">Small</span> Yacht
+                    </header>
+                    <footer class="text-right align-self-bottom align-self-right w-full">
+                        <span class="font-thin">from</span> $249/day
+                    </footer>
+                </a>
+            </div>
+            <div class="small-12 medium-4 align-bottom align-center padding-1">
+                <a class="callout grid-x minh-25vh bg-dark text-white category-s5 shadow text-shadow hover-grayscale"
+                    href="rent.html#midsize-yachts">
+                    <header class="text-left w-full">
+                        <span class="font-thin">Mid-Size</span> Yacht
+                    </header>
+                    <footer class="text-right align-self-bottom align-self-right w-full">
+                        <span class="font-thin">from</span> $419/day
+                    </footer>
+                </a>
+            </div>
+            <div class="small-12 medium-4 align-bottom align-center padding-1">
+                <a class="callout grid-x minh-25vh bg-dark text-white category-s6 shadow text-shadow hover-grayscale"
+                    href="rent.html#big-yachts">
+                    <header class="text-left w-full">
+                        <span class="font-thin">Big</span> Yacht
+                    </header>
+                    <footer class="text-right align-self-bottom align-self-right w-full">
+                        <span class="font-thin">from</span> $799/day
+                    </footer>
+                </a>
+            </div>
+        </section>
+        <section class="index-s4 grid-x minh-25vh bg-light-gray">
+            <div class="cell small-12 medium-6 large-7 flex align-center align-middle">
+                <div class="padding-2 medium-margin-left-2">
+                    <h3 class="h5 font-bold">
+                        Experience the Difference
+                    </h3>
+                    <p class="font-thin text-justify">
+                        Rentals include world-class insurance available from 
+                        beginning to end as well as 24-hour on-water support.
+                        Our experts do what it takes to make your boating 
+                        dreams reality. Connect with our captain network for 
+                        an even better boat rental experience. With a captain 
+                        at the helm, boating expertise is not required! No 
+                        membership, pristine and privately-owned fleet.
+                    </p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-6 large-5 flex align-center align-middle padding-2">
+                <img src="img/harbor.jpg" alt="harbor" class="shadow">
+            </div>
+        </section>
+        <section class="index-s5 grid-x bg-gray minh-25vh align-middle align-center padding-2">
+            <div class="cell small-8 large-6 text-center text-white text-shadow">
+                <h3 class="font-bold">
+                    Call for Reservation
+                </h3>
+                <p class="lead font-thin">
+                    We offer you a super experience around the country.
+                </p>
+                <p>
+                    +(00) 789 567 345
                 </p>
             </div>
         </section>
     </main>
-    <footer class="grid-x grid-padding-x align-center align-middle text-center bg-dark text-white padding-1">
-        <p class="cell small-12 margin-0 font-bold">
+    <footer class="grid-x grid-padding-x text-center bg-dark text-white padding-1">
+        <div class="small-12 grid-x">
+            <div class="small-12">
+                <img src="img/navbar_logo.png" alt="logo" class="float-left filter-grayscale">
+                <div class="display-inline-block text-gray text-shadow font-bold font-logo margin-left-1 float-left">
+                    BoatRental
+                </div>
+            </div>
+            <small class="small-12 padding-1 text-gray font-thin">
+                <ul class="no-bullet float-left text-left">
+                    <li>Same Street 12</li> 
+                    <li>123-31 Zagreb</li>
+                    <li>+(00) 789 567 345</li>
+                    <li>contact&#64;boatrental.mail</li>
+                </ul>
+            </small>
+        </div>
+        <div class="small-12 border-t border-gray">
+            <ul class="menu align-center">
+                <li class="hover-darken">
+                    <a href="index.html" class="text-gray font-thin">
+                        Home
+                    </a>
+                </li>
+                <li class="hover-darken">                        
+                    <a href="rent.html" class="text-gray font-thin">
+                        Rent
+                    </a>
+                </li>
+                <li class="hover-darken">
+                    <a href="services.html" class="text-gray font-thin">
+                        Services
+                    </a>
+                </li>
+                <li class="hover-darken">
+                    <a href="team.html" class="text-gray font-thin">
+                        Team
+                    </a>
+                </li>
+                <li class="hover-darken">
+                    <a href="contact.html" class="text-gray font-thin">
+                        Contact
+                    </a>
+                </li>
+                <li class="hover-darken">
+                    <a href="user.html" class="text-gray font-thin">
+                        <span class="fa fa-user-circle-o"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="cell small-12 text-gray font-bold border-t border-gray padding-horizontal-1">
             <small>
                 Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
-                <a class="text-white hover-red" href="privacy.html">Privacy policy</a>
+                <a class="text-gray hover-red" href="privacy.html">Privacy policy</a>
             </small>
-        </p>
+        </div>
     </footer>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
