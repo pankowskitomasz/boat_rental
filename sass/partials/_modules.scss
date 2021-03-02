@@ -19,6 +19,9 @@
 }
 .bg{
     &-dark{
+        &-gray{
+            background-color: $color__dark-gray !important;    
+        }
         background-color: $color__dark !important;
     }
     &-gray{
@@ -59,6 +62,7 @@
     &-white{
         border-color: $color__white !important;
     }
+    border: $border-param;    
 }
 .category{
     &-s1{
@@ -83,6 +87,11 @@
 .comingsoon{
     &-s1{
         @extend %bg-blend;
+    }
+}
+.contact{
+    &-s1{
+        background-size: cover;
     }
 }
 .error{
@@ -151,12 +160,20 @@
         background-attachment: scroll;
     }
 }
+.maxh{
+    &-250{
+        max-height:250px;
+    }
+}
 .minh{
     &-20vh{
         min-height: 20vh;
     }
     &-25vh{
         min-height: 25vh;
+    }
+    &-33vh{
+        min-height: 33vh;
     }
     &-50vh{
         min-height: 50vh;
